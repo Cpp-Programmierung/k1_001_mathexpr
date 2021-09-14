@@ -1,16 +1,18 @@
 //============================================================================
 // Name        : 1.cpp
-// Author      : 
+// Author      :
 // Version     :
-// Copyright   : 
+// Copyright   :
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
 #include <iostream>
 #include <cmath>
+#include <limits>
 using namespace std;
 
-int main() {
+int main()
+{
 	float x;
 	cout << "x eingeben: ";
 	cin >> x;
@@ -21,5 +23,5 @@ int main() {
 	cout << " exp(x) = " << exp(x) << '\n';
 	cout << " log(x) = " << log(x) << '\n'; // log() ist der natürliche Logarithmus
 
-    system("pause");
+	system("pause");
 }
